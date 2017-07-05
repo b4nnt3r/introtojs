@@ -58,8 +58,8 @@ let instructorName=10;
 // 9.
 // Update the variables `yourName` and `instructorName` so the expression below reads correctly.
 // A:
-yourName=Brandon;
-instructorName=Ben;
+let Brandon=yourName;
+let Ben=instructorName;
 
 // This statement should read correctly
 let statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
@@ -70,7 +70,7 @@ let statement = yourName + " is taking a class at The Iron Yard, my instructor's
 // Use the `=` operator to assign a value to each variable matching the type in the name.
 let myNumber = 100;
 let myString = "a hundred";
-let myBoolean = flase;
+let myBoolean = false;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 let myUndefined;
 // or let myUndefined=undefined;
@@ -80,7 +80,7 @@ let myUndefined;
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
 
 // 11.
-let x = (false == 0);
+let h = (false == 0);
 // A. true
 
 
@@ -160,9 +160,9 @@ if(""){
 
 // 23.
 // this expression will set x to NaN
-let x = 1 * undefined;
+let g = 1 * undefined;
 
-if(x){
+if(g){
 	console.log("True!");
 } else {
 	console.log("False!");
