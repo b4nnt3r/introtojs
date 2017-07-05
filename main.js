@@ -58,12 +58,12 @@ let instructorName=10;
 // 9.
 // Update the variables `yourName` and `instructorName` so the expression below reads correctly.
 // A:
-let Brandon=yourName;
-let Ben=instructorName;
+yourName="Brandon";
+instructorName="Ben";
 
 // This statement should read correctly
 let statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
-
+console.log(statement);
 
 // 10.
 // We've created a variable named after each primitive type.
