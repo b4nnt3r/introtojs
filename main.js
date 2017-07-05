@@ -9,19 +9,19 @@ let givenName;
 // 2.
 // What is `givenName` set to right now?
 givenName = "Tim";
-// A:
+// A: a string, Tim
 
 
 // 3.
 // What is `givenName` set to right now?
 givenName = givenName;
-// A:
+// A: Tim
 
 
 // 4.
 // What is `greeting` set to?
 let greeting = "Hello, how are you? " + givenName;
-// A:
+// A: Hello, how are you? Tim
 
 
 // 5.
@@ -29,13 +29,13 @@ let greeting = "Hello, how are you? " + givenName;
 let high = 50;
 let low  = 10;
 let math = high - low;
-// A:
+// A: 40
 
 
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A:
+// A: 45
 
 
 // 7.
@@ -44,20 +44,22 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 let born = 1984;
 let today = 2017;
-// A:
+// A: let timAge = "Tim is " + (today - born) + " years old" {console.log(timAge);}
+
 
 
 // 8.
 // Adjust this code. Store some information in the following variables.
 // A:
-let yourName;
-let instructorName;
+let yourName=5;
+let instructorName=10;
 
 
 // 9.
 // Update the variables `yourName` and `instructorName` so the expression below reads correctly.
 // A:
-
+yourName=Brandon;
+instructorName=Ben;
 
 // This statement should read correctly
 let statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
@@ -66,11 +68,12 @@ let statement = yourName + " is taking a class at The Iron Yard, my instructor's
 // 10.
 // We've created a variable named after each primitive type.
 // Use the `=` operator to assign a value to each variable matching the type in the name.
-let myNumber;
-let myString;
-let myBoolean;
+let myNumber = 100;
+let myString = "a hundred";
+let myBoolean = flase;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 let myUndefined;
+// or let myUndefined=undefined;
 // A:
 
 
@@ -78,47 +81,47 @@ let myUndefined;
 
 // 11.
 let x = (false == 0);
-// A.
+// A. true
 
 
 // 12.
 let y = (false == "");
-// A.
+// A. true
 
 
 // 13.
 let z = (0 == "");
-// A.
+// A. true
 
 
 // 14.
 let a = (null == null);
-// A.
+// A. true
 
 
 // 25.
 let b = (undefined == undefined);
-// A.
+// A. true
 
 
 // 16.
 let c = (undefined == null);
-// A.
+// A. true
 
 
 // 17.
 let d = (null == false);
-// A.
+// A. false
 
 
 // 18.
 let e = (NaN == null);
-// A.
+// A. false
 
 
 // 19.
 let f = (NaN == NaN);
-// A.
+// A. false
 
 
 // 20.
@@ -126,7 +129,7 @@ let f = (NaN == NaN);
 // Use the variable `thirsty` as part of your conditional expression.
 // A:
 let thirsty = true;
-
+  if (thirsty)
 {
   console.log("I'm parched!");
 } else {
@@ -143,7 +146,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 22.
@@ -152,7 +155,7 @@ if(""){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 23.
@@ -164,7 +167,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 24.
@@ -173,7 +176,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 25.
@@ -182,7 +185,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 26.
@@ -191,7 +194,7 @@ if("Hello World!"){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 27.
@@ -200,7 +203,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 28.
@@ -209,7 +212,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 29.
@@ -218,7 +221,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 30.
